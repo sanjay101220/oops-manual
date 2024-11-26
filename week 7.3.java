@@ -50,3 +50,13 @@ Football footballPlayer = new Football(footballPlayerName);
 // Input for Volleyball player
                    String volleyballPlayerName = scanner.nextLine(); 
 Volleyball volleyballPlayer = new Volleyball(volleyballPlayerName); 
+  // Input for Basketball player 
+String basketballPlayerName = scanner.nextLine(); 
+Basketball basketballPlayer = new Basketball(basketballPlayerName); 
+// Call the play method for each player 
+footballPlayer.play(); 
+volleyballPlayer.play(); 
+basketballPlayer.play(); 
+scanner.close(); 
+} 
+} 
