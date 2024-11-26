@@ -16,3 +16,30 @@ temp.append(Character.toString(g.charAt(i)));
 else if(space == ones && flag == 1){ 
 temp1.append(Character.toString(g.charAt(i))); 
 }
+} space = 
+0 ; flag = 
+1; n = n 
+/10; 
+} 
+rew m = new rew(); 
+System.out.println(m.r(temp1.toString()) + " " + m.r(temp.toString())); 
+} 
+} 
+class rew{ 
+String r(String a){ int le 
+= a.length(),n,q; 
+StringBuffer temp3 = new StringBuffer(); 
+if(le % 2 == 1){ 
+n = ((int)(le/2)); 
+q = ((int)(le/2)); 
+} else{ n = 
+((int)(le/2)) - 1; 
+q = ((int)(le/2)); 
+} 
+for(int i = n;i >= 0;i--){ temp3.append(Character.toString(a.charAt(i))); 
+} for(int i = q;i < le;i++){ 
+temp3.append(Character.toString(a.charAt(i))); 
+} 
+return temp3.toString(); 
+} 
+} 
